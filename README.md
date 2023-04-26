@@ -6,11 +6,9 @@ This project is a Fenerbahçe-themed e-commerce web application built with React
 
 Here are some screenshots of the project:
 
-![Screenshot 1](image.png)
-_Caption for Screenshot 1_
+![image](https://user-images.githubusercontent.com/82091624/234670366-f855b45d-9c53-4952-b9b0-35b57e7fcbf7.png)
 
-![Screenshot 2](image.png)
-_Caption for Screenshot 2_
+![image](https://user-images.githubusercontent.com/82091624/234670541-923a12e5-c8fa-4784-9b64-1186d75e71c0.png)
 
 ## Getting Started
 
