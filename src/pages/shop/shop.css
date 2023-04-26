@@ -1,0 +1,112 @@
+.shop {
+  width: 100%;
+  padding: 20px;
+}
+
+.shopTitle {
+  margin: 50px;
+  text-align: center;
+  font-size: 100px;
+  color: #ffd700; /* Fenerbahçe's yellow color */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for a subtle effect */
+  background: linear-gradient(
+    to right,
+    #ffd700,
+    #0033a0
+  ); /* Gradient background with Fenerbahçe's yellow and blue colors */
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  position: relative; /* Add position relative */
+}
+
+.shopTitle h1 {
+  display: inline;
+  position: relative;
+  z-index: 1;
+  font-family: "Helvetica Neue", sans-serif; /* Change font family */
+}
+
+.titleUnderline {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background-color: #ffd700; /* Fenerbahçe's yellow color */
+  z-index: -1;
+}
+
+.shopTitle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background-color: #ffd700; /* Fenerbahçe's yellow color */
+  z-index: -1;
+}
+
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 20px;
+}
+
+.product {
+  border-radius: 15px;
+  width: 350px;
+  height: 500px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.product img {
+  width: 400px;
+}
+
+.product .description {
+  text-align: center;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  transform: scale(
+    1.05
+  ); /* Hover effect to slightly scale up the product card */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Box shadow for a slightly stronger effect on hover */
+}
+
+.addToCartBttn {
+  background-color: #ffd700; /* Fenerbahçe's yellow color */
+  border: none;
+  color: #000000; /* Black color */
+  padding: 12px 24px;
+  border-radius: 50px; /* Border radius for rounded corners */
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase; /* Uppercase text transformation */
+  letter-spacing: 1px; /* Letter spacing */
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+}
+.addToCartBttn:hover {
+  background-color: #ffc400; /* Slightly darker yellow color on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* More prominent box shadow on hover */
+}

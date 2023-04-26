@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #000080; /* Set background color to Fenerbahçe's navy blue */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.links .link {
+  text-decoration: none;
+  color: #edfd0a; /* Set link color to Fenerbahçe's yellow */
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.links .link:hover {
+  /* Add hover effect for links */
+  color: #fff; /* Set hover color to white */
+}
